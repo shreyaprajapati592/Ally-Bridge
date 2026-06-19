@@ -1,0 +1,2139 @@
+
+
+@font-face {
+    font-family: 'Apple Garamond';
+    src: url('./fonts/AppleGaramond-Italic.woff2') format('woff2'),
+        url('./fonts/AppleGaramond-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Apple Garamond';
+    src: url('./fonts/AppleGaramond.woff2') format('woff2'),
+        url('./fonts/AppleGaramond.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Apple Garamond';
+    src: url('./fonts/AppleGaramondLight.woff2') format('woff2'),
+        url('./fonts/AppleGaramondLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Apple Garamond';
+    src: url('./fonts/AppleGaramond-BoldItalic.woff2') format('woff2'),
+        url('./fonts/AppleGaramond-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Apple Garamond';
+    src: url('./fonts/AppleGaramond-Bold.woff2') format('woff2'),
+        url('./fonts/AppleGaramond-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Apple Garamond';
+    src: url('./fonts/AppleGaramondLight-Italic.woff2') format('woff2'),
+        url('./fonts/AppleGaramondLight-Italic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('./fonts/Inter18pt-SemiBoldItalic.woff2') format('woff2'),
+        url('./fonts/Inter18pt-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('./fonts/Inter18pt-Regular.woff2') format('woff2'),
+        url('./fonts/Inter18pt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('./fonts/Inter18pt-Thin.woff2') format('woff2'),
+        url('./fonts/Inter18pt-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('./fonts/Inter28pt-ExtraBoldItalic.woff2') format('woff2'),
+        url('./fonts/Inter28pt-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('./fonts/Inter24pt-LightItalic.woff2') format('woff2'),
+        url('./fonts/Inter24pt-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('./fonts/Inter28pt-Light.woff2') format('woff2'),
+        url('./fonts/Inter28pt-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('./fonts/Inter28pt-MediumItalic.woff2') format('woff2'),
+        url('./fonts/Inter28pt-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('./fonts/Inter28pt-SemiBoldItalic.woff2') format('woff2'),
+        url('./fonts/Inter28pt-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('./fonts/Inter28pt-Thin.woff2') format('woff2'),
+        url('./fonts/Inter28pt-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('./fonts/Inter28pt-ThinItalic.woff2') format('woff2'),
+        url('./fonts/Inter28pt-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('./fonts/Inter18pt-Black.woff2') format('woff2'),
+        url('./fonts/Inter18pt-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('./fonts/Inter18pt-BlackItalic.woff2') format('woff2'),
+        url('./fonts/Inter18pt-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('./fonts/Inter18pt-BoldItalic.woff2') format('woff2'),
+        url('./fonts/Inter18pt-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('./fonts/Inter18pt-Bold.woff2') format('woff2'),
+        url('./fonts/Inter18pt-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('./fonts/Inter18pt-ExtraBold.woff2') format('woff2'),
+        url('./fonts/Inter18pt-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('./fonts/Inter18pt-Italic.woff2') format('woff2'),
+        url('./fonts/Inter18pt-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('./fonts/Inter18pt-ExtraLight.woff2') format('woff2'),
+        url('./fonts/Inter18pt-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('./fonts/Inter18pt-ExtraBoldItalic.woff2') format('woff2'),
+        url('./fonts/Inter18pt-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('./fonts/Inter18pt-LightItalic.woff2') format('woff2'),
+        url('./fonts/Inter18pt-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('./fonts/Inter18pt-ExtraLightItalic.woff2') format('woff2'),
+        url('./fonts/Inter18pt-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('./fonts/Inter18pt-Light.woff2') format('woff2'),
+        url('./fonts/Inter18pt-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('./fonts/Inter18pt-SemiBold.woff2') format('woff2'),
+        url('./fonts/Inter18pt-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('./fonts/Inter18pt-Medium.woff2') format('woff2'),
+        url('./fonts/Inter18pt-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('./fonts/Inter18pt-MediumItalic.woff2') format('woff2'),
+        url('./fonts/Inter18pt-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('./fonts/Inter24pt-Black.woff2') format('woff2'),
+        url('./fonts/Inter24pt-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('./fonts/Inter24pt-BlackItalic.woff2') format('woff2'),
+        url('./fonts/Inter24pt-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('./fonts/Inter24pt-Bold.woff2') format('woff2'),
+        url('./fonts/Inter24pt-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('./fonts/Inter18pt-ThinItalic.woff2') format('woff2'),
+        url('./fonts/Inter18pt-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('./fonts/Inter24pt-Italic.woff2') format('woff2'),
+        url('./fonts/Inter24pt-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('./fonts/Inter24pt-ExtraLight.woff2') format('woff2'),
+        url('./fonts/Inter24pt-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('./fonts/Inter24pt-BoldItalic.woff2') format('woff2'),
+        url('./fonts/Inter24pt-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('./fonts/Inter24pt-ExtraLightItalic.woff2') format('woff2'),
+        url('./fonts/Inter24pt-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('./fonts/Inter24pt-Medium.woff2') format('woff2'),
+        url('./fonts/Inter24pt-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('./fonts/Inter24pt-ExtraBold.woff2') format('woff2'),
+        url('./fonts/Inter24pt-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('./fonts/Inter24pt-ExtraBoldItalic.woff2') format('woff2'),
+        url('./fonts/Inter24pt-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('./fonts/Inter24pt-Light.woff2') format('woff2'),
+        url('./fonts/Inter24pt-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('./fonts/Inter24pt-Regular.woff2') format('woff2'),
+        url('./fonts/Inter24pt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('./fonts/Inter24pt-SemiBoldItalic.woff2') format('woff2'),
+        url('./fonts/Inter24pt-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('./fonts/Inter24pt-MediumItalic.woff2') format('woff2'),
+        url('./fonts/Inter24pt-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('./fonts/Inter24pt-Thin.woff2') format('woff2'),
+        url('./fonts/Inter24pt-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('./fonts/Inter24pt-ThinItalic.woff2') format('woff2'),
+        url('./fonts/Inter24pt-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 24pt';
+    src: url('./fonts/Inter24pt-SemiBold.woff2') format('woff2'),
+        url('./fonts/Inter24pt-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('./fonts/Inter28pt-BoldItalic.woff2') format('woff2'),
+        url('./fonts/Inter28pt-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('./fonts/Inter28pt-ExtraLight.woff2') format('woff2'),
+        url('./fonts/Inter28pt-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('./fonts/Inter28pt-Black.woff2') format('woff2'),
+        url('./fonts/Inter28pt-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('./fonts/Inter28pt-Bold.woff2') format('woff2'),
+        url('./fonts/Inter28pt-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('./fonts/Inter28pt-ExtraBold.woff2') format('woff2'),
+        url('./fonts/Inter28pt-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('./fonts/Inter28pt-BlackItalic.woff2') format('woff2'),
+        url('./fonts/Inter28pt-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('./fonts/Inter28pt-SemiBold.woff2') format('woff2'),
+        url('./fonts/Inter28pt-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('./fonts/Inter28pt-Medium.woff2') format('woff2'),
+        url('./fonts/Inter28pt-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('./fonts/Inter28pt-ExtraLightItalic.woff2') format('woff2'),
+        url('./fonts/Inter28pt-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('./fonts/Inter28pt-Regular.woff2') format('woff2'),
+        url('./fonts/Inter28pt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('./fonts/Inter28pt-Italic.woff2') format('woff2'),
+        url('./fonts/Inter28pt-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 28pt';
+    src: url('./fonts/Inter28pt-LightItalic.woff2') format('woff2'),
+        url('./fonts/Inter28pt-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geologica Auto';
+    src: url('./fonts/GeologicaAuto-Bold.woff2') format('woff2'),
+        url('./fonts/GeologicaAuto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geologica Auto';
+    src: url('./fonts/GeologicaAuto-ExtraBold.woff2') format('woff2'),
+        url('./fonts/GeologicaAuto-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geologica Auto';
+    src: url('./fonts/GeologicaAuto-Black.woff2') format('woff2'),
+        url('./fonts/GeologicaAuto-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geologica Auto';
+    src: url('./fonts/GeologicaAuto-Thin.woff2') format('woff2'),
+        url('./fonts/GeologicaAuto-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geologica Auto';
+    src: url('./fonts/GeologicaAuto-Regular.woff2') format('woff2'),
+        url('./fonts/GeologicaAuto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geologica Auto';
+    src: url('./fonts/GeologicaAuto-Light.woff2') format('woff2'),
+        url('./fonts/GeologicaAuto-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geologica Auto';
+    src: url('./fonts/GeologicaAuto-Medium.woff2') format('woff2'),
+        url('./fonts/GeologicaAuto-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geologica Auto';
+    src: url('./fonts/GeologicaAuto-ExtraLight.woff2') format('woff2'),
+        url('./fonts/GeologicaAuto-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geologica Auto';
+    src: url('./fonts/GeologicaAuto-SemiBold.woff2') format('woff2'),
+        url('./fonts/GeologicaAuto-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geologica Cursive';
+    src: url('./fonts/GeologicaCursive-Black.woff2') format('woff2'),
+        url('./fonts/GeologicaCursive-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geologica Cursive';
+    src: url('./fonts/GeologicaCursive-Bold.woff2') format('woff2'),
+        url('./fonts/GeologicaCursive-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geologica Cursive';
+    src: url('./fonts/GeologicaCursive-ExtraBold.woff2') format('woff2'),
+        url('./fonts/GeologicaCursive-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geologica Cursive';
+    src: url('./fonts/GeologicaCursive-ExtraLight.woff2') format('woff2'),
+        url('./fonts/GeologicaCursive-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geologica Cursive';
+    src: url('./fonts/GeologicaCursive-Medium.woff2') format('woff2'),
+        url('./fonts/GeologicaCursive-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geologica Cursive';
+    src: url('./fonts/GeologicaCursive-Light.woff2') format('woff2'),
+        url('./fonts/GeologicaCursive-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geologica Cursive';
+    src: url('./fonts/GeologicaCursive-Regular.woff2') format('woff2'),
+        url('./fonts/GeologicaCursive-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geologica Cursive';
+    src: url('./fonts/GeologicaCursive-SemiBold.woff2') format('woff2'),
+        url('./fonts/GeologicaCursive-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geologica';
+    src: url('./fonts/Geologica-ExtraBold.woff2') format('woff2'),
+        url('./fonts/Geologica-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geologica';
+    src: url('./fonts/Geologica-Bold.woff2') format('woff2'),
+        url('./fonts/Geologica-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geologica Cursive';
+    src: url('./fonts/GeologicaCursive-Thin.woff2') format('woff2'),
+        url('./fonts/GeologicaCursive-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geologica';
+    src: url('./fonts/Geologica-Black.woff2') format('woff2'),
+        url('./fonts/Geologica-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geologica';
+    src: url('./fonts/Geologica-SemiBold.woff2') format('woff2'),
+        url('./fonts/Geologica-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geologica';
+    src: url('./fonts/Geologica-ExtraLight.woff2') format('woff2'),
+        url('./fonts/Geologica-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geologica';
+    src: url('./fonts/Geologica-Regular.woff2') format('woff2'),
+        url('./fonts/Geologica-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geologica';
+    src: url('./fonts/Geologica-Light.woff2') format('woff2'),
+        url('./fonts/Geologica-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geologica';
+    src: url('./fonts/Geologica-Medium.woff2') format('woff2'),
+        url('./fonts/Geologica-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geologica';
+    src: url('./fonts/Geologica-Thin.woff2') format('woff2'),
+        url('./fonts/Geologica-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('./fonts/SFProDisplay-HeavyItalic.woff2') format('woff2'),
+        url('./fonts/SFProDisplay-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('./fonts/SFProDisplay-BlackItalic.woff2') format('woff2'),
+        url('./fonts/SFProDisplay-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('./fonts/SFProDisplay-Bold.woff2') format('woff2'),
+        url('./fonts/SFProDisplay-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('./fonts/SFProDisplay-LightItalic.woff2') format('woff2'),
+        url('./fonts/SFProDisplay-LightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('./fonts/SFProDisplay-ThinItalic.woff2') format('woff2'),
+        url('./fonts/SFProDisplay-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('./fonts/SFProDisplay-Medium.woff2') format('woff2'),
+        url('./fonts/SFProDisplay-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('./fonts/SFProDisplay-SemiboldItalic.woff2') format('woff2'),
+        url('./fonts/SFProDisplay-SemiboldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('./fonts/SFProDisplay-UltralightItalic.woff2') format('woff2'),
+        url('./fonts/SFProDisplay-UltralightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('./fonts/SFProDisplay-Regular.woff2') format('woff2'),
+        url('./fonts/SFProDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter 24pt';
+    background: var(--white);
+    color: var(--purple);
+    overflow-x: hidden;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+:root {
+    --white: rgba(254, 254, 254, 1);
+    --off_white: rgba(242, 243, 248, 1);
+    --purple: rgba(39, 38, 95, 1);
+    --blue: rgba(32, 56, 100, 1);
+    --sky_blue: rgba(214, 231, 238, 1);
+    --light_blue: rgba(234, 246, 254, 1);
+    --red: rgba(196, 34, 40, 1);
+    --brand_blue: rgba(1, 138, 190, 1);
+    --navy_blue: rgba(2, 69, 122, 1);
+    --sky_blue_dark: rgba(151, 202, 219, 1);
+}
+
+img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    -webkit-user-select: none;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1308px;
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px 50px;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Apple Garamond';
+    font-weight: 400;
+}
+
+h1,
+.title_h1 {
+    font-size: 110px;
+    line-height: 115%;
+    color: var(--off_white);
+}
+
+h2,
+.title_h2 {
+    font-size: 62px;
+    line-height: 110%;
+}
+
+.h2_big {
+    font-weight: 400;
+    font-size: 97px;
+    line-height: 116%;
+}
+
+.title_h2 span,
+.team_details_box_btm .title_h4 span {
+    color: var(--red);
+    font-style: italic;
+}
+
+h3,
+.title_h3 {
+    font-size: 55px;
+    line-height: 115%;
+}
+
+h4,
+.title_h4 {
+    font-size: 46px;
+    line-height: 109%;
+}
+
+h5,
+.title_h5,
+.font_twenty_eight {
+    font-family: 'Inter 24pt';
+    font-size: 28px;
+    line-height: 143%;
+    color: var(--purple);
+}
+
+.small_h5 {
+    font-size: 25px;
+    line-height: 100%;
+    color: var(--red);
+}
+
+h6,
+.title_h6 {
+    font-family: 'Inter 24pt';
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 32px;
+}
+
+p {
+    font-family: 'Inter 24pt';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.big_p {
+    font-family: 'Apple Garamond';
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 32px;
+}
+
+.small_p {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.bg_light_blue {
+    background-color: var(--light_blue);
+}
+
+.bg_purple {
+    background-color: var(--purple);
+    color: var(--off_white);
+}
+
+.bg_sky_blue {
+    background-color: var(--sky_blue);
+}
+
+.bg_sky_blue_dark {
+    background-color: var(--sky_blue_dark);
+}
+
+.bg_brand_blue {
+    background-color: var(--brand_blue);
+    color: var(--off_white);
+}
+
+.bg_navy_blue {
+    background-color: var(--navy_blue);
+    color: var(--off_white);
+}
+
+.pad_both {
+    padding: 120px 0px;
+}
+
+.pad_top {
+    padding-top: 120px;
+}
+
+.gap_fourty {
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cmn_btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: max-content;
+    font-family: 'Geologica';
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 12px 10px 13px 20px;
+    border: 1px solid var(--red);
+    background-color: var(--white);
+    color: var(--red);
+    transition: all 0.4s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    min-width: 204px;
+}
+
+.cmn_btn::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: var(--red);
+    transition: width 0.4s ease-in-out;
+    z-index: -1;
+}
+
+.cmn_btn:hover {
+    --webkit-text-stroke: 0.5px var(--white);
+    color: var(--white);
+}
+
+.cmn_btn:hover::after {
+    width: 100%;
+}
+
+.cmn_btn svg path {
+    transition: all 0.4s ease-in-out;
+}
+
+.cmn_btn:hover svg path {
+    fill: var(--white);
+}
+
+header.header {
+    padding: 24px 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: var(--light_blue);
+    transition: background 0.3s ease, padding 0.3s ease;
+}
+
+.menu-scrolled header {
+    background-color: var(--light_blue);
+    padding: 15px 0;
+}
+
+.header_main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.header_logo {
+    width: max-content;
+    display: flex;
+}
+
+.header_right {
+    flex: 1;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: end;
+}
+
+.header_menu ul {
+    display: flex;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+.header_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    padding: 14px;
+    color: var(--white);
+    background-color: var(--purple);
+    border-radius: 5px;
+    transition: all 0.4s ease-in-out;
+    border: 1px solid var(--purple);
+    font-family: 'Inter 24pt';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 12px;
+}
+
+.header_btn:hover {
+    background-color: transparent;
+    --webkit-text-stroke: 0.5px var(--purple);
+    color: var(--purple);
+}
+
+.header_menu ul li a {
+    font-family: 'Inter 24pt';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--Purple);
+    transition: all 0.4s ease-in-out;
+    position: relative;
+}
+
+.header_menu ul li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    height: 3px;
+    background-color: var(--red);
+    transition: all 0.4s ease-in-out;
+    z-index: -1;
+}
+
+.header_menu ul li a:hover:after {
+    width: 100%;
+}
+
+.mobileIcon {
+    display: none;
+}
+
+section.hero-banner {
+    position: relative;
+    padding: 145px 0px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 16 / 10.467;
+}
+
+section.hero-banner .container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+}
+
+.hero_banner_img {
+    position: absolute;
+    width: 100%;
+    inset: 0;
+}
+
+.hero_banner_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero_banner_title {
+    width: 70%;
+    position: relative;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    display: flex;
+    z-index: 1;
+
+}
+
+.scroll_down {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    bottom: 34px;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.scroll_down span {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'SF Pro Display';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: var(--off_white);
+}
+
+.hero_swiper {
+    width: 100%;
+    height: 100%;
+    position: absolute !important;
+    inset: 0;
+}
+
+.hero_slide {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.ally_bridge_main {
+    display: flex;
+    gap: 40px;
+}
+
+.ally_bridge_title {
+    flex: 1;
+}
+
+.ally_bridge_title h2 {
+    color: var(--red);
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 1);
+}
+
+.ally_bridge_right.gap_fourty {
+    width: 48.345%;
+}
+
+.ally_bridge_right_top {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.ally_bridge_right_top h5 {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ally_bridge_counter_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 210px 0px 133px;
+    position: relative;
+    z-index: 1;
+}
+
+.ally_bridge_counter {
+    position: relative;
+    overflow: hidden;
+}
+
+.ally_bridge_counter::after {
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 100vh;
+    background: var(--blue);
+    border-radius: 50% 50% 0 0;
+    top: 0;
+    left: -9%;
+    z-index: 0;
+}
+
+.counter_box {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    align-items: center;
+    color: var(--white);
+    padding: 0px 60px;
+    border-right: 0.5px solid var(--off_white);
+}
+
+.counter_box:last-child {
+    border-right: none;
+    padding-right: 0;
+}
+
+.counter_box:first-child {
+    padding-left: 0;
+}
+
+.counter_box .h2_big span {
+    font-size: 45px;
+    line-height: 49px;
+}
+
+.investment_main {
+    display: flex;
+    align-items: stretch;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.investment_content.gap_fourty {
+    flex: 1;
+    padding: 76px 93px;
+}
+
+.investment_img {
+    width: 48.428%;
+}
+
+.investment_content_top {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.investment_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.portfolio_main {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+    /* max-width: 1512px;
+    margin: 0px auto; */
+}
+
+.portfolio_swiper {
+    width: 100%;
+    position: relative;
+    align-items: center;
+}
+
+.portfolio_swiper .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.portfolio_swiper .swiper-wrapper {
+    transition-timing-function: linear !important;
+    cursor: pointer;
+}
+
+.news_insights_main {
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+
+.news_insights_top {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+}
+
+.news_insights_btm {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 37px;
+}
+
+.news_insights_card {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 14px 14px 21px 14px;
+    border-radius: 10px;
+}
+
+.insights_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--white);
+    padding: 60px 68px;
+    /* min-height: 160px; */
+}
+
+.insights_content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.insights_desc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.insights_desc .big_p {
+    max-width: 308px;
+}
+
+.footer_main {
+    padding: 45px 0px 24px;
+    max-width: 1156px;
+}
+
+.footer_top {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.footer_left {
+    width: 31.488%;
+}
+
+.footer_patch {
+    width: 33.218%;
+}
+
+.footer_right ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer_right {
+    width: 9.17%;
+}
+
+.footer_right ul li {
+    display: flex;
+}
+
+.footer_right ul li a {
+    font-family: 'Inter 24pt';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--off_white);
+    transition: all 0.4s ease-in-out;
+}
+
+.footer_right ul li a:hover,
+.copy_right a:hover {
+    --webkit-text-stroke: 0.5px var(--red);
+    color: var(--red);
+}
+
+.copy_right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding-top: 6px;
+}
+
+.copy_right p,
+.copy_right a {
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--off_white);
+    transition: all 0.4s ease-in-out;
+}
+
+
+.we_are_main {
+    display: flex;
+    gap: 60px;
+}
+
+.vertical_card p {
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.vertical_slider {
+    flex: 1;
+    margin-right: -12.6%;
+}
+
+.we_are_title {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 29.305%;
+    height: 100%;
+    position: sticky;
+    top: 140px;
+    margin-bottom: 30px;
+}
+
+
+.vertical_slider {
+    position: relative;
+}
+
+.vartical_card {
+    position: sticky;
+    top: 0;
+    padding: 42px 30px 42px 110px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    transition: transform 0.3s ease;
+}
+
+.vertical_description p:not(:last-child) {
+    padding-bottom: 16px;
+}
+
+
+/* About Page  */
+
+section.about_hero_banner {
+    position: relative;
+    padding: 316px 0px 79px;
+}
+
+.about_hero_banner_main {
+    display: flex;
+    align-items: center;
+    gap: 46px;
+}
+
+.about_left {
+    width: 50.966%;
+}
+
+.about-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.about_right_btm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+section.about_hero_banner .container {
+    max-width: 1395px;
+}
+
+section.life_sciences.bg_light_blue {
+    padding: 78px 0px 73px;
+}
+
+.life_sciences_main {
+    display: flex;
+    align-items: center;
+    gap: 137px;
+}
+
+.life_science_left {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    flex: 1;
+}
+
+.life_sicences_right {
+    width: 47.848%;
+}
+
+.investment_approach {
+    padding: 133px 0 99px;
+}
+
+.investment_approach_main {
+    display: flex;
+    gap: 34px;
+    align-items: flex-start;
+}
+
+.investment_approach_left {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    width: 32%;
+}
+
+.investment_approach_right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 63px;
+}
+
+.differentiated_investment_box {
+    padding-bottom: 39px;
+    border-bottom: 1px solid var(--red);
+}
+
+.investment_box_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    gap: 30px;
+}
+
+.investment_box_title svg {
+    transition: all 0.4s ease-in-out;
+    pointer-events: none;
+}
+
+.differentiated_investment_box.active .investment_box_title svg {
+    transform: rotate(45deg);
+}
+
+.investment_box_desc {
+    display: none;
+    margin: 20px 0;
+}
+
+.investment_approach_left .title_h3 {
+    color: var(--red);
+}
+
+section.healthcare {
+    padding: 148px 0px 133px;
+}
+
+.healthcafre_main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 33px;
+}
+
+.healthcare_right {
+    gap: 53px;
+    width: 47.931%;
+}
+
+.healthcare_left {
+    width: 48.842%;
+}
+
+section.our_dna {
+    padding: 91px 0px 36px;
+}
+
+.our_dna_main {
+    display: flex;
+    padding-left: 152px;
+    align-items: flex-start;
+    gap: 69px;
+    max-width: 1512px;
+    margin: 0px auto;
+}
+
+.our_dna_left {
+    width: 27.353%;
+}
+
+.our_dna_left .title_h3 {
+    max-width: 247px;
+}
+
+.dna_right_card {
+    background: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 47px 32px 40px 25px;
+    position: relative;
+    border: 4px solid var(--brand_blue);
+    height: 100%;
+    overflow: hidden;
+}
+
+.dna_card_main {
+    position: relative;
+    height: 100%;
+}
+
+.our_dna_right {
+    flex: 1;
+    counter-reset: cardNum;
+    width: 50%;
+}
+
+.card_title .title_h2 {
+    font-size: 80px;
+    line-height: 81px;
+}
+
+.card_img {
+    position: absolute;
+    right: 26px;
+    top: 36px;
+}
+
+.dna_right_card_op {
+    padding: 80px 82px 93px 32px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transition: all 0.6s ease-in-out;
+    z-index: 9;
+    opacity: 0;
+    overflow-x: auto;
+}
+
+.dna_card_main:hover .dna_right_card_op {
+    top: 0;
+    opacity: 1;
+}
+
+.card_number h5 {
+    font-size: 42px;
+    line-height: 100%;
+    counter-increment: cardNum;
+    color: var(--brand_blue);
+}
+
+.card_number h5::before {
+    content: counter(cardNum, decimal-leading-zero);
+}
+
+.dna_swiper {
+    width: 100%;
+    position: relative;
+    aspect-ratio: 16 / 6.1;
+}
+
+.dna-progress {
+    margin-top: 34px;
+}
+
+.dna-progress .swiper-pagination {
+    position: relative;
+    height: 4px;
+    background: var(--off_white) !important;
+}
+
+.dna-progress .swiper-pagination-progressbar-fill {
+    background: var(--navy_blue) !important;
+}
+
+
+section.team {
+    padding: 267px 0px 159px;
+}
+
+.team_main {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.team_content_top {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    max-width: 992px;
+}
+
+.team_content_desc {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.team_tab_btn ul {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tab_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    border: 1px solid var(--navy_blue);
+    padding: 6px 14px 6px 12px;
+    font-family: 'Inter 18pt';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--navy_blue);
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    border-radius: 5px;
+    min-width: 166px;
+}
+
+.tab_btn.active {
+    background-color: var(--navy_blue);
+    color: rgba(224, 230, 240, 1);
+}
+
+
+.team_list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 39px;
+}
+
+.team_memmber img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.leadership {
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}
+
+.team_title .title_h5,
+.operations_title .title_h5 {
+    font-family: 'Apple Garamond';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 29px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--red);
+}
+
+.team_card,
+.team_card2 {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    cursor: pointer;
+}
+
+.team_memmber_details .small_h5 {
+    color: var(--purple);
+    font-weight: 600;
+}
+
+.operations {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    padding-bottom: 34px;
+    border-bottom: 1px solid var(--red);
+    cursor: pointer;
+}
+
+.operations_title .title_h5 {
+    border-bottom: none;
+    padding-bottom: 0px;
+}
+
+
+.team_details_main {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    height: 85vh;
+    max-width: 678px;
+    margin: 5vh auto 0;
+    overflow-y: auto;
+    padding: 0px 30px
+}
+
+.close_menu {
+    position: fixed;
+    right: 57px;
+    top: 67px;
+    z-index: 10001;
+    cursor: pointer;
+}
+
+.team_details_box_center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 28px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.team_details_box_left {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 89%;
+}
+
+.team_details_box_btm {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    flex: 1;
+    position: relative;
+}
+
+.location .title_h6 {
+    font-weight: 400;
+}
+
+.team_details_second_box_main .team_details_box_left {
+    width: 36.374%;
+}
+
+.team_details_second_box_main {
+    max-width: 1058px;
+    gap: 85px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 85vh;
+    margin: 5vh auto 0;
+    overflow-y: auto;
+    padding: 0px 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.team_details_box_left_img {
+    width: 100%;
+}
+
+.team_details_box_left_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.team_details_second_box {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 90%;
+    height: 100vh;
+    z-index: 9999;
+    background-color: var(--sky_blue);
+    transform: translateX(100%);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.team_details_second_box.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+}
+
+
+.team_details_default_box {
+    position: fixed;
+    top: 0;
+    width: 50%;
+    z-index: 9999;
+    transform: translateX(50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+}
+
+.team_details_default_box.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0%);
+}
+
+.popup_bg {
+    position: absolute;
+    top: 10%;
+    right: 15%;
+    z-index: -1;
+}
+
+.team_memmber_details .small_p {
+    line-height: 22px;
+}
+
+.team_memmber {
+    width: 100%;
+    flex: 1;
+}
+
+.team_memmber_details {
+    flex: 1;
+}
+
+.team_memmber_details .small_h5 span {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 29px;
+}
+
+.linkedin_icon a {
+    display: flex;
+    transition: all 0.4s ease-in-out;
+    width: 20px;
+    height: 20px;
+}
+
+.linkedin_icon a:hover {
+    transform: scale(1.1);
+}
+
+.close_menu svg {
+    pointer-events: none;
+}
+
+.team_details_second_box.active {
+    pointer-events: auto;
+}
+
+body.popup-open {
+    overflow: hidden;
+    position: relative;
+    transition: all 0.4s ease-in-out;
+}
+
+body.popup-open::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: #0000008f;
+    z-index: 999;
+}
+
+
+.header_menu ul li.header_btn.menu-item-has-children.active {
+    justify-content: flex-start;
+    max-width: max-content;
+}
+
+.header_menu ul li.header_btn.menu-item-has-children.active>.sub-menu li>li {
+    justify-content: end;
+}
+
+
+.header_menu ul li.header_btn.menu-item-has-children.active>.sub-menu li.active>.sub-menu {
+    right: 0;
+    margin-left: 20px;
+}
+
+
+.header_menu ul li.header_btn.menu-item-has-children.active {
+    justify-content: flex-start;
+    width: 52%;
+}
+
+.header_menu ul li.header_btn.menu-item-has-children.active>.sub-menu {
+    width: 100%;
+}
+
+.header_menu ul li.header_btn.menu-item-has-children.active>.sub-menu li p.blank-p {
+    background: url('data:image/svg+xml,<svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.69542 6.52558L1.41813 0.248289C1.25257 0.0827333 1.05764 0.00203896 0.833338 0.00620563C0.608894 0.0105112 0.413894 0.0954413 0.248339 0.260997C0.0827833 0.426691 4.62738e-06 0.621692 4.62738e-06 0.845997C4.62738e-06 1.0703 0.0827833 1.2653 0.248339 1.431L6.62813 7.8235C6.77882 7.97419 6.94764 8.08586 7.13459 8.1585C7.32153 8.23114 7.50848 8.26746 7.69542 8.26746C7.88237 8.26746 8.06931 8.23114 8.25626 8.1585C8.4432 8.08586 8.61202 7.97419 8.76271 7.8235L15.1554 1.431C15.321 1.2653 15.4016 1.06815 15.3973 0.839539C15.393 0.610928 15.3081 0.413844 15.1425 0.248289C14.977 0.0827333 14.782 -4.41154e-05 14.5575 -4.41154e-05C14.3332 -4.41154e-05 14.1383 0.0827333 13.9727 0.248289L7.69542 6.52558Z" fill="white"/></svg>');
+}
+
+.header_menu ul li.header_btn.menu-item-has-children.active>.sub-menu li.active>.sub-menu {
+    right: 0;
+    margin-left: 20px;
+}
+
+.header_menu ul li.header_btn.menu-item-has-children.active>.sub-menu li a {
+    color: var(--normal-white);
+}
